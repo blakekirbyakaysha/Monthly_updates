@@ -1,0 +1,24 @@
+# ---- Python / environments ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.conda-env/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# ---- Large data: re-download or regenerate on a new machine ----
+*.zip
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# ---- Office lock files / OS ----
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Project-specific large data ----
+WSB *.csv
